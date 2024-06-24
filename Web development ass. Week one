@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <meta name="description" content="Track your expenses easily">
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker</h1>
+    </header>
+    <main>
+        <p>Welcome to our expense tracking app!</p>
+        <form action="/register" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <button type="submit">Register</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Display user information here -->
+            </tbody>
+        </table>
+        <img src="expense-tracker-logo.png" alt="Expense Tracker Logo">
+        <p>Visit <a href="https://google.com" target="_blank" rel="noopener noreferrer">Google</a></p>
+    </main>
+</body>
+</html>
